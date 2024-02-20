@@ -101,7 +101,7 @@ func play_battle_intro(_battle_type: int) -> void:
 		anim_player.play("start_trainer_battle")
 		await anim_player.animation_finished
 		
-		start_dialogue(["Lady somehting would like to battle"])
+		start_dialogue([tr("Lady something would like to battle")])
 		await dialogue_finished
 		
 		anim_player.play("start_trainer_battle_02")
@@ -418,7 +418,6 @@ func start_dialogue(input_arr: Array) -> void:
 	
 	for i in range(1):
 		for j in range(len(input_arr[i])):
-			
 			await dialogue_timer.timeout
 			dialogue_label.text += input_arr[i][j]
 	

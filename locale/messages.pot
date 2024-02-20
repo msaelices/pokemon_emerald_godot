@@ -1,0 +1,16 @@
+# LANGUAGE translation for pokemon_emerald for the following files:
+# res://battle/battle_.gd
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pokemon_emerald\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: battle/battle_.gd
+msgid "Lady something would like to battle"
+msgstr ""
